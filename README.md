@@ -4,7 +4,7 @@ This project involved the use of supervised machine learning and EEG based drows
 
 For any questions email: tomukmatthews@gmail.com
 
-**Requirements:**
+_**Requirements:**_
 
 **Software:**
 * Matlab (used R2018b) - signal processing toolbox, statistics toolbox, machine learning toolbox
@@ -13,6 +13,7 @@ For any questions email: tomukmatthews@gmail.com
 * BLINKER - an EEGlab plugin to detect and extract the blinks from the frontal electrodes
 
 BLINKER link: http://vislab.github.io/EEG-Blinks/#Plugin
+The blinkProperties structure must be run on each dataset and saved for use in 'classify_computeBlinksfts.m'
 
 **Data:**
 * Epoched data (minimum ~5s for most of the scripts)

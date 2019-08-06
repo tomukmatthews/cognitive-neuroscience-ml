@@ -7,9 +7,12 @@ For any questions email: tomukmatthews@gmail.com
 **Requirements:**
 
 **Software:**
-* Matlab (used R2018b)
+* Matlab (used R2018b) - signal processing toolbox, statistics toolbox, machine learning toolbox
 * EEGlab (used eeglab14_1_2b)
 * fieldtrip (used fieldtrip-20190120)
+* BLINKER - an EEGlab plugin to detect and extract the blinks from the frontal electrodes
+
+BLINKER link: http://vislab.github.io/EEG-Blinks/#Plugin
 
 **Data:**
 * Epoched data (minimum ~5s for most of the scripts)
